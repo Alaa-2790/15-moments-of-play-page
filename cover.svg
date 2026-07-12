@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">15 Moments of Play with Your Child</title>
+  <desc id="desc">Pastel digital PDF cover with a smiling playful character.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8f5e2"/>
+      <stop offset="1" stop-color="#b9e8fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4a3761" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1100" rx="56" fill="url(#bg)"/>
+  <circle cx="118" cy="138" r="28" fill="#ffd95a" opacity=".95"/>
+  <circle cx="784" cy="168" r="22" fill="#ff8b9a" opacity=".9"/>
+  <circle cx="758" cy="914" r="30" fill="#7bc9f0" opacity=".9"/>
+  <path d="M112 840c58-45 98-50 145-14" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" opacity=".85"/>
+  <path d="M672 246c54 9 92 35 112 76" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" opacity=".85"/>
+  <text x="450" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5" fill="#31564b">DIGITAL PDF</text>
+  <text x="450" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="80" font-weight="700" fill="#3f2d56">15 Moments</text>
+  <text x="450" y="336" text-anchor="middle" font-family="Georgia, serif" font-size="80" font-weight="700" fill="#3f2d56">of Play</text>
+  <text x="450" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#645370">WITH YOUR CHILD</text>
+  <g filter="url(#shadow)">
+    <circle cx="450" cy="650" r="166" fill="#fff"/>
+    <circle cx="398" cy="615" r="13" fill="#3f2d56"/>
+    <circle cx="502" cy="615" r="13" fill="#3f2d56"/>
+    <path d="M374 680c38 56 114 72 160 0" fill="none" stroke="#3f2d56" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="358" cy="664" r="18" fill="#ffb6bd" opacity=".85"/>
+    <circle cx="542" cy="664" r="18" fill="#ffb6bd" opacity=".85"/>
+  </g>
+  <text x="450" y="930" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#31564b">15 SIMPLE, SCREEN-FREE</text>
+  <text x="450" y="978" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#31564b">PLAY ACTIVITIES</text>
+  <text x="450" y="1035" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#5f5270">Instant download · Print or use on screen</text>
+</svg>
