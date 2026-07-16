@@ -25,6 +25,7 @@ fbq('track', 'ViewContent', {
 });
 </script>
 <!-- End Meta Pixel Code -->
+<script src="https://payhip.com/payhip.js" defer></script>
 <style>
 :root{--ink:#3f2d56;--soft:#6b5d80;--cream:#fffdf6;--paper:#fff7e9;--green:#4eaf60;--green-dark:#2f7e44}
 *{box-sizing:border-box}
@@ -45,6 +46,7 @@ h1{font-size:clamp(34px,6vw,62px);line-height:1.05;margin:18px 0 14px;font-famil
 .price{margin-top:16px;font-weight:900}.price strong{font-size:34px;color:var(--green-dark)}
 .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.chips span{background:#fff;border-radius:999px;padding:8px 12px;font-weight:900;color:#31564b}
 .cover-image{display:block;width:min(390px,100%);height:auto;aspect-ratio:1/1;object-fit:contain;margin:auto;border-radius:24px;box-shadow:0 16px 36px rgba(63,45,86,.18);transform:rotate(-2deg);background:#fff;padding:8px}
+.payhip-hidden-trigger{position:fixed!important;left:-10000px!important;top:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important;opacity:0!important;pointer-events:none!important}
 section{padding:58px 0}.soft{background:var(--paper)}.dark{background:var(--ink);color:#fff}
 .head{text-align:center;max-width:760px;margin:0 auto 30px}.head h2{font-family:Georgia,serif;font-size:clamp(30px,4vw,44px);line-height:1.1;margin:0 0 10px}.head p{color:var(--soft);font-weight:750}.dark .head p{color:#ded4ee}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
@@ -63,17 +65,30 @@ footer{text-align:center;background:var(--ink);color:#d8cde8;padding:26px;font-w
 </head>
 <body>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1057524706954239&ev=PageView&noscript=1" alt=""></noscript>
-<header class="top"><div class="wrap nav"><div>15 Moments of Play</div><a class="buy-btn" href="https://payhip.com/b/37RzW">Get PDF - $6</a></div></header>
+<a id="payhip-direct-trigger" class="payhip-buy-button payhip-hidden-trigger" data-theme="green" data-product="37RzW" href="https://payhip.com/b/37RzW" tabindex="-1" aria-hidden="true">Buy now</a>
+<header class="top"><div class="wrap nav"><div>15 Moments of Play</div><a class="buy-btn direct-checkout" href="https://payhip.com/b/37RzW">Get PDF - $6</a></div></header>
 <main>
-<section class="hero"><div class="wrap hero-grid"><div><span class="badge">Digital PDF download - no physical item is shipped</span><h1>Simple play ideas to enjoy with your grandchild</h1><p class="lead">A printable digital guide with 15 screen-free activities for grandparents and grandchildren.</p><p class="note">Download the PDF after checkout, then print it or open it on your phone or tablet.</p><div class="actions"><a class="buy-btn" href="https://payhip.com/b/37RzW">Get PDF - $6</a><a class="ghost" href="#inside">See what is included</a></div><div class="price"><strong>$6</strong> one-time payment</div><div class="chips"><span>Instant PDF</span><span>15 activities</span><span>Print or use on screen</span></div></div><div><img id="product-cover" class="cover-image" src="final%20cover.png" alt="Cover of the 15 Moments of Play digital PDF"></div></div></section>
+<section class="hero"><div class="wrap hero-grid"><div><span class="badge">Digital PDF download - no physical item is shipped</span><h1>Simple play ideas to enjoy with your grandchild</h1><p class="lead">A printable digital guide with 15 screen-free activities for grandparents and grandchildren.</p><p class="note">Download the PDF after checkout, then print it or open it on your phone or tablet.</p><div class="actions"><a class="buy-btn direct-checkout" href="https://payhip.com/b/37RzW">Get PDF - $6</a><a class="ghost" href="#inside">See what is included</a></div><div class="price"><strong>$6</strong> one-time payment</div><div class="chips"><span>Instant PDF</span><span>15 activities</span><span>Print or use on screen</span></div></div><div><img id="product-cover" class="cover-image" src="final%20cover.png" alt="Cover of the 15 Moments of Play digital PDF"></div></div></section>
 <section><div class="wrap"><div class="head"><h2>Made for simple time together</h2><p>Use one idea during a visit, after school, on a rainy day, or whenever you want something easy to do together.</p></div><div class="grid"><div class="card"><span class="card-icon">😊</span><h3>Quick to begin</h3><p>Choose an activity and follow the simple instructions.</p></div><div class="card"><span class="card-icon">🙂</span><h3>Easy at home</h3><p>Most activities use imagination or ordinary things nearby.</p></div><div class="card"><span class="card-icon">😄</span><h3>Digital file</h3><p>Receive the PDF after checkout and keep it on your device or print it.</p></div></div></div></section>
 <section class="soft" id="inside"><div class="wrap"><div class="head"><h2>What is included</h2><p>One downloadable PDF with 15 different play activities.</p></div><div class="grid4"><div class="card"><span class="card-icon">😁</span><h3>Silly play</h3><p>Light activities for shared laughter.</p></div><div class="card"><span class="card-icon">🤸</span><h3>Movement</h3><p>Simple active games.</p></div><div class="card"><span class="card-icon">🤗</span><h3>Imagination</h3><p>Pretend play and storytelling.</p></div><div class="card"><span class="card-icon">😌</span><h3>Quiet play</h3><p>Calmer ideas for slower moments.</p></div></div></div></section>
 <section class="dark"><div class="wrap"><div class="head"><h2>Inside the PDF</h2><p>A straightforward activity guide with no app or membership.</p></div><ul class="checks"><li>15 screen-free activities</li><li>Simple instructions in plain English</li><li>A mix of silly, active, imaginative, and quiet play</li><li>Instant digital delivery through Payhip</li></ul></div></section>
 <section class="soft"><div class="wrap"><div class="safety"><h2>Play safely</h2><p>Choose activities that suit your grandchild's age, ability, energy, and comfort. Keep active play gentle and supervise children as appropriate.</p></div></div></section>
 <section><div class="wrap"><div class="head"><h2>Questions</h2></div><details><summary>Is this a physical product?</summary><p>No. This is a digital PDF file. Nothing will be shipped.</p></details><details><summary>How do I receive it?</summary><p>After checkout, Payhip provides the PDF download.</p></details><details><summary>Do I need special toys?</summary><p>No special toy set is required. Some activities may use ordinary items already at home.</p></details><details><summary>Who is it for?</summary><p>The page is written for grandparents looking for simple activities to enjoy with their grandchildren.</p></details></div></section>
-<section class="final"><div class="wrap"><h2>Download the digital PDF</h2><p>Get 15 simple play activities for $6.</p><a class="buy-btn" href="https://payhip.com/b/37RzW">Get PDF - $6</a></div></section>
+<section class="final"><div class="wrap"><h2>Download the digital PDF</h2><p>Get 15 simple play activities for $6.</p><a class="buy-btn direct-checkout" href="https://payhip.com/b/37RzW">Get PDF - $6</a></div></section>
 </main>
 <footer>© 2026 - 15 Moments of Play - Digital PDF</footer>
-<div class="sticky"><b>$6</b><a class="buy-btn" href="https://payhip.com/b/37RzW">Get PDF</a></div>
+<div class="sticky"><b>$6</b><a class="buy-btn direct-checkout" href="https://payhip.com/b/37RzW">Get PDF</a></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const payhipTrigger = document.getElementById('payhip-direct-trigger');
+  document.querySelectorAll('.direct-checkout').forEach(function (button) {
+    button.addEventListener('click', function (event) {
+      if (!payhipTrigger) return;
+      event.preventDefault();
+      payhipTrigger.click();
+    });
+  });
+});
+</script>
 </body>
 </html>
